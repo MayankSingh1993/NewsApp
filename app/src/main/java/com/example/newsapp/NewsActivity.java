@@ -30,7 +30,7 @@ public class NewsActivity extends AppCompatActivity implements LoaderManager.Loa
      * This really only comes into play if we're using multiple loaders.
      */
     private static final int NEWS_LOADER_ID = 1;
-    private static final String GUARDIAN_REQUEST_URL = "https://content.guardianapis.com/search?q=debate%20AND%20(economy%20OR%20immigration%20education)&tag=politics/politics&show-tags=contributor&&from-date=2018-10-01&api-key=a933c2fe-895f-4c72-b82a-c1317f423c1a";
+    private static final String GUARDIAN_REQUEST_URL = "https://content.guardianapis.com/search?q=debate%20AND%20(economy%20OR%20immigration%20education)&tag=politics/politics&show-tags=contributor&&from-date=2018-10-01&api-key=test";
 
     /**
      * TextView that is displayed when the list is empty
